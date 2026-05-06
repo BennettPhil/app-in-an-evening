@@ -40,4 +40,4 @@ A list of everything you've tried
 
 ---
 
-**Previous step:** [Codex Build Prompt](build-prompt-codex.md) | **Next step (optional):** [Codex Sub-Agent &rarr;](codex-sub-agent.md)
+**Previous step:** [Build Prompt](build-prompt.md) | **Next step (optional):** [Codex Sub-Agent &rarr;](codex-sub-agent.md)

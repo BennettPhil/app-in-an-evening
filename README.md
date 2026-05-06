@@ -14,16 +14,14 @@ Follow these pages in order during the workshop:
 Get your machine ready. This covers installing the terminal tools and software you'll need, whether you're on Windows or macOS.
 
 ### 2. Setup Prompt
-Choose the version that matches your agent:
+Copy one setup prompt to scaffold the desktop app and create the project instructions file.
 
-- [Claude Code Setup Prompt](setup-prompt-claude.md)
-- [Codex Setup Prompt](setup-prompt-codex.md)
+- [Setup Prompt](setup-prompt.md)
 
 ### 3. Build Prompt
-Choose the version that matches your agent:
+Copy one build prompt to create the Eisenhower matrix desktop app.
 
-- [Claude Code Build Prompt](build-prompt-claude.md)
-- [Codex Build Prompt](build-prompt-codex.md)
+- [Build Prompt](build-prompt.md)
 
 ### 4. Debug Prompt
 Choose the version that matches your agent:
@@ -82,10 +80,8 @@ Twelve honest things worth knowing about how coding agents actually behave — w
 | Get set up with Git and GitHub | [Git and GitHub Guide](git-github-guide.md) |
 | Understand how agents actually behave | [Things to Know Before You Trust the Agent](things-to-know.md) |
 | Set up your machine | [Install Dependencies](install-dependencies.md) |
-| Start a new project in Claude Code | [Claude Code Setup Prompt](setup-prompt-claude.md) |
-| Start a new project in Codex | [Codex Setup Prompt](setup-prompt-codex.md) |
-| Build a feature in Claude Code | [Claude Code Build Prompt](build-prompt-claude.md) |
-| Build a feature in Codex | [Codex Build Prompt](build-prompt-codex.md) |
+| Start a new project | [Setup Prompt](setup-prompt.md) |
+| Build the app | [Build Prompt](build-prompt.md) |
 | Fix something broken in Claude Code | [Claude Code Debug Prompt](debug-prompt-claude.md) |
 | Fix something broken in Codex | [Codex Debug Prompt](debug-prompt-codex.md) |
 | Add a code reviewer (Claude) | [Claude Sub-Agent](claude-sub-agent.md) |

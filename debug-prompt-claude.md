@@ -40,4 +40,4 @@ A list of everything you've tried
 
 ---
 
-**Previous step:** [Claude Code Build Prompt](build-prompt-claude.md) | **Next step (optional):** [Claude Code Sub-Agent &rarr;](claude-sub-agent.md)
+**Previous step:** [Build Prompt](build-prompt.md) | **Next step (optional):** [Claude Code Sub-Agent &rarr;](claude-sub-agent.md)
