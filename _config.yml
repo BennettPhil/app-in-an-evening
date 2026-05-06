@@ -1,0 +1,5 @@
+remote_theme: pages-themes/minimal@v0.2.0
+title: "Build Your First App With AI In One Evening"
+description: "Workshop companion site — build your first app with AI coding agents"
+plugins:
+  - jekyll-remote-theme
