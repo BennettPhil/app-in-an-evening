@@ -24,10 +24,9 @@ Copy one build prompt to create the Eisenhower matrix desktop app.
 - [Build Prompt](build-prompt.md)
 
 ### 4. Debug Prompt
-Choose the version that matches your agent:
+Copy one debug prompt when something breaks and you want your coding agent to investigate.
 
-- [Claude Code Debug Prompt](debug-prompt-claude.md)
-- [Codex Debug Prompt](debug-prompt-codex.md)
+- [Debug Prompt](debug-prompt.md)
 
 ---
 
@@ -45,11 +44,9 @@ A sub-agent is like giving your coding agent a specialist helper. Pick the guide
 
 ## Slides
 
-Want to revisit the presentation from the workshop? The deck is split across the two sessions:
+Want to revisit the presentation from the workshop?
 
-**Part 1** — [View the slides](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening/index.html) | [Download as PDF](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening.pdf)
-
-**Part 2** — [View the slides](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening%20Pt%202/index.html) | [Download as PDF](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening%20Pt%202.pdf)
+[View the slides](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening/index.html) | [Download as PDF](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening.pdf)
 
 ---
 
@@ -82,7 +79,6 @@ Twelve honest things worth knowing about how coding agents actually behave — w
 | Set up your machine | [Install Dependencies](install-dependencies.md) |
 | Start a new project | [Setup Prompt](setup-prompt.md) |
 | Build the app | [Build Prompt](build-prompt.md) |
-| Fix something broken in Claude Code | [Claude Code Debug Prompt](debug-prompt-claude.md) |
-| Fix something broken in Codex | [Codex Debug Prompt](debug-prompt-codex.md) |
+| Fix something broken | [Debug Prompt](debug-prompt.md) |
 | Add a code reviewer (Claude) | [Claude Sub-Agent](claude-sub-agent.md) |
 | Add a code reviewer (Codex) | [Codex Sub-Agent](codex-sub-agent.md) |

@@ -2,23 +2,35 @@
 
 # Debug Prompt
 
-Use the version that matches the coding agent you are using. Both versions ask for the same debugging context and point the agent at the right project instructions file.
+Use this template when something is broken and you want your coding agent to investigate it. Copy the template, fill in the parts in square brackets `[like this]`, and paste it into your coding agent.
 
-If you launched the agent with `claude`, use the Claude Code version. If you launched it with `codex`, use the Codex version.
+```markdown
+## Mode
+Debug
 
-Copy one prompt only:
+## Expected Behaviour
+A few short sentences about what you expected the software to do.
+Include what you were doing when the problem happened.
 
-## Claude Code
+## Current Behaviour
+A few short sentences about what is happening instead.
 
-Use this if you are working in Claude Code. It tells Claude to read `CLAUDE.md` and stay inside Claude Code conventions.
+## Context
+- Relevant files/paths: [list them or say "see src/auth/"]
+- Any error messages that you see when the problem occurs
+- Any log files that exist and can be checked
+- Related issue/ticket: [link or description]
 
-[Open the Claude Code Debug Prompt](debug-prompt-claude.md)
+## What I've Already Tried
+A list of everything you've tried
 
-## Codex
+## Acceptance Criteria
+- [ ] [Specific, testable outcome]
+- [ ] [Another outcome]
 
-Use this if you are working in Codex. It tells Codex to read `AGENTS.md` before it starts.
-
-[Open the Codex Debug Prompt](debug-prompt-codex.md)
+## Notes
+[Any edge cases, preferences, or things to watch out for]
+```
 
 ---
 
