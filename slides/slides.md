@@ -362,7 +362,7 @@ layout: two-cols
 <div class="flex flex-col items-center">
 <img src="/media/qr.png" class="h-80 bg-white p-5 border-3 border-black" />
 
-bennettphil.github.io/app-in-an-evening/
+[https://bit.ly/app-in-day](https://bit.ly/app-in-day)
 
 </div>
 
