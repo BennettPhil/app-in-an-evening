@@ -36,18 +36,6 @@ wsl --install Ubuntu
 ```
 
 ---
-layout: two-cols
----
-
-# WhatsApp.
-
-## For Doc Sharing
-
-::right::
-
-<img src="/media/whatsapp.png" class="h-100 bg-white p-4 border-3 border-black" />
-
----
 
 # How This Will Work
 
@@ -1088,11 +1076,11 @@ layout: two-cols
 
 # Advanced Topics
 
-## — Model Choice
+## <span class="topic-line">Model Choice</span>
 
-## — Sub-agents
+## <span class="topic-line">Sub-agents</span>
 
-## — Skills
+## <span class="topic-line">Skills</span>
 
 ::right::
 
