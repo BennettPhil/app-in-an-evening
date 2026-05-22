@@ -147,11 +147,11 @@ layout: two-cols
 
 - Email extractor / newsroom
 - Personal task manager
-- Newsletter strategy workshop
+- AI-powered content calendar
 - Firefox extension
 - **New handpickedberlin.com page**
 - Salary Trends reports (v2)
-- Insiders Dinner Club operations help
+- Luma calendar manager
 
 </div>
 </div>
@@ -283,8 +283,7 @@ class: text-center
 
 ## Claude Code
 
-- Anthropic
-- Launched in Feb 2025
+- Anthropic, launched in Feb 2025
 - CLI and IDE plugin
 - Reads your codebase, edits files, runs commands, and works well from the terminal or an IDE.
 
@@ -293,8 +292,7 @@ class: text-center
 
 ## Codex
 
-- OpenAI
-- Launched in May 2025
+- OpenAI, launched in May 2025
 - CLI, IDE plugin, and app
 - OpenAI's coding agent for reading code, making edits, and running software tasks.
 
@@ -368,7 +366,7 @@ layout: two-cols
 
 # Step 1: Open The Terminal
 
-<div class="grid grid-cols-2 gap-16">
+<div class="grid grid-cols-2 gap-16 pt-8">
 <div>
 
 ## macOS
@@ -389,6 +387,8 @@ Or: Applications → Utilities → Terminal
 
 First-time setup asks for a username & password.
 
+🚨 **When you type a password, nothing shows up.** No dots, no stars. That's normal. Just type it and press Return.
+
 Then
 ```bash
 sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgtk-3-0 libgbm-dev libnss3-dev libxss-dev
@@ -400,7 +400,7 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 
 ---
 
-# Terminal Basics
+# Before we start: Terminal Basics
 
 ### The few commands we'll use today
 
@@ -414,7 +414,7 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 | `clear` | Clears the terminal screen | When things feel cluttered |
 | `Ctrl + C` | Stops the command currently running | When something seems stuck |
 
-You do not need to memorise these. The full cheat sheet is on the course website.
+<div style="white-space: nowrap">You do not need to memorise these. The full cheat sheet is on the course website.</div>
 
 <Progress phase="setup" :active="1" />
 
@@ -422,7 +422,7 @@ You do not need to memorise these. The full cheat sheet is on the course website
 
 # Step 2: Install Dependencies
 
-<div class="grid grid-cols-2 gap-16">
+<div class="grid grid-cols-2 gap-16 pt-8">
 <div>
 
 ## 1. Install Homebrew
@@ -453,7 +453,7 @@ brew install nodejs
 
 # Step 3: Install an Agent
 
-Install one of these in your terminal. You only need to do this once.
+<p class="pt-8">Install one of these in your terminal. You only need to do this once.</p>
 
 <div class="border-2 border-red-700 bg-red-50 text-red-900 px-5 py-3 mt-4 mb-6 font-bold">
 Install only. Do not start the agent yet — we'll do that together in Step 5.
@@ -489,9 +489,10 @@ Install only. Do not start the agent yet — we'll do that together in Step 5.
 
 # Step 4: Make A Workshop Folder
 
-A clean place to keep everything we make today. Run these one at a time.
+<p class="pt-8">A clean place to keep everything we make today. Run these one at a time.</p>
 
-<div class="grid grid-cols-2 gap-16">
+
+<div class="grid grid-cols-2 gap-16 pt-8">
 <div>
 
 ### 1. Create the folder
@@ -500,7 +501,7 @@ A clean place to keep everything we make today. Run these one at a time.
 mkdir workshop
 ```
 
-*<b>mkdir</b> = "make directory". Nothing prints — that's normal. The folder now exists in your home folder.*
+*<b>mkdir</b> = "make directory". Nothing will show on screen, that's normal. The folder now exists in your home folder.*
 
 </div>
 <div>
@@ -532,7 +533,18 @@ cd workshop
 
 # Step 5: Start an Agent
 
-From inside your project folder, launch the agent and paste the prompt above.
+
+<div class="pt-8">
+
+1. Make sure you are in your workshop folder. Your terminal line should mention `workshop`, something like:
+
+```text
+jane@laptop:~/workshop$
+```
+
+<span class="text-sm opacity-70">The exact look differs per computer.</span>
+
+2. Launch the agent.
 
 <div class="grid grid-cols-3 gap-12 mt-8">
 <div>
@@ -558,6 +570,8 @@ From inside your project folder, launch the agent and paste the prompt above.
 </div>
 </div>
 
+</div>
+
 <Progress phase="setup" :active="5" />
 
 ---
@@ -575,10 +589,9 @@ layout: two-cols
 ---
 
 # Project Memory
+### A note your agent reads every time you start a chat (=session)
 
-### A note your agent reads every time
-
-<div class="grid grid-cols-2 gap-12">
+<div class="grid grid-cols-2 gap-12 pt-6">
 <div>
 
 ## `CLAUDE.md`
@@ -613,7 +626,7 @@ class: text-center
 
 ---
 
-# Step 7: Configuring the Agent
+# Step 6: Configuring the Agent
 
 Before we build anything, we'll teach the agent how to talk to us — non-technical, jargon-free, one step at a time. This sets the tone for the whole project.
 
@@ -803,7 +816,7 @@ class: text-center
 
 ---
 
-# Step 8: Now We Build the Application
+# Step 7: Now We Build the Application
 
 The scaffolding is in place. Now we tell the agent *what* we're actually building — the features, the look, the behaviour.
 
@@ -1089,7 +1102,7 @@ layout: two-cols
 
 ---
 
-# Step 6: Choose a Model and "Thinking Level"
+# FYI: Models and "Thinking Level"
 
 ### More "Power" = More Cost
 
@@ -1107,7 +1120,7 @@ layout: two-cols
 
 `/effort auto`
 
-You can turn this up later if you need to.
+Good default — you can change it anytime.
 
 </div>
 <div>
@@ -1121,12 +1134,10 @@ You can turn this up later if you need to.
 
 <hr class="my-3"/>
 
-Set reasoning to "medium" for now; turn it up later only if the task is genuinely hard.
+"Medium" is a good default — turn it up only if a task is genuinely hard.
 
 </div>
 </div>
-
-<Progress phase="setup" :active="6" />
 
 
 ---
