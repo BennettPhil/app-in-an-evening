@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # Build Prompt
 
@@ -38,4 +38,4 @@ For small choices I haven't mentioned (colours, layout details), pick something 
 
 ---
 
-**Previous step:** [Setup Prompt](setup-prompt.md) | **Next step:** [Debug Prompt &rarr;](debug-prompt.md)
+**Previous step:** [Setup Prompt](setup-prompt.html) | **Next step:** [Debug Prompt &rarr;](debug-prompt.html)

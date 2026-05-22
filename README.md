@@ -10,23 +10,23 @@ This workshop is for people who aren't software engineers. You don't need any co
 
 Follow these pages in order during the workshop:
 
-### 1. [Install Dependencies](install-dependencies.md)
-Get your machine ready. This covers installing the terminal tools and software you'll need, whether you're on Windows or macOS.
+### 1. [Open the Terminal, Install Dependencies, and Start an Agent](install-dependencies.html)
+Get your machine ready. This covers WSL for Windows, Homebrew, Node.js, installing an AI coding agent, creating your workshop folder, and starting the agent.
 
 ### 2. Setup Prompt
 Copy one setup prompt to scaffold the desktop app and create the project instructions file.
 
-- [Setup Prompt](setup-prompt.md)
+- [Setup Prompt](setup-prompt.html)
 
 ### 3. Build Prompt
 Copy one build prompt to create the Eisenhower matrix desktop app.
 
-- [Build Prompt](build-prompt.md)
+- [Build Prompt](build-prompt.html)
 
 ### 4. Debug Prompt
 Copy one debug prompt when something breaks and you want your coding agent to investigate.
 
-- [Debug Prompt](debug-prompt.md)
+- [Debug Prompt](debug-prompt.html)
 
 ---
 
@@ -37,8 +37,8 @@ These are optional extras for when you're comfortable with the basics:
 ### 5. Sub-Agents
 A sub-agent is like giving your coding agent a specialist helper. Pick the guide for the agent you're using:
 
-- [Claude Code Sub-Agent](claude-sub-agent.md) — for Claude Code users
-- [Codex Sub-Agent](codex-sub-agent.md) — for Codex users
+- [Claude Code Sub-Agent](claude-sub-agent.html) — for Claude Code users
+- [Codex Sub-Agent](codex-sub-agent.html) — for Codex users
 
 ---
 
@@ -46,7 +46,7 @@ A sub-agent is like giving your coding agent a specialist helper. Pick the guide
 
 Want to revisit the presentation from the workshop?
 
-[View the slides](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening/index.html) | [Download as PDF](slides/Build%20Your%20First%20App%20With%20AI%20In%20One%20Evening.pdf)
+[View the current slides](slides/dist/index.html) | [Download as PDF](slides/slides.pdf)
 
 ---
 
@@ -54,16 +54,16 @@ Want to revisit the presentation from the workshop?
 
 Handy one-pagers you can keep open alongside your agent:
 
-### [Terminal Cheat Sheet](terminal-cheat-sheet.md)
+### [Terminal Cheat Sheet](terminal-cheat-sheet.html)
 New to the terminal? Covers every command you'll need during the workshop — navigating folders, managing files, keyboard shortcuts, and agent commands. Works for both macOS and Windows (WSL).
 
-### [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.md)
+### [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.html)
 The shortcuts you can type inside Claude Code and Codex — `/init`, `/model`, `/clear`, `/help` and the rest. One-page reference for both agents side by side.
 
-### [An Idiot's Guide to Git and GitHub](git-github-guide.md)
+### [An Idiot's Guide to Git and GitHub](git-github-guide.html)
 A gentle, no-jargon walkthrough for non-technical people. Get a GitHub account, install the tools, push your first project, and learn the prompts to hand to your agent whenever you need to save, undo, or recover work.
 
-### [Things to Know Before You Trust the Agent](things-to-know.md)
+### [Things to Know Before You Trust the Agent](things-to-know.html)
 Twelve honest things worth knowing about how coding agents actually behave — where they're strong, where they'll quietly mislead you, and how to work with them without getting burned.
 
 ---
@@ -72,13 +72,13 @@ Twelve honest things worth knowing about how coding agents actually behave — w
 
 | What you need to do | Where to find it |
 |---|---|
-| Look up a terminal command | [Terminal Cheat Sheet](terminal-cheat-sheet.md) |
-| Look up a slash command | [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.md) |
-| Get set up with Git and GitHub | [Git and GitHub Guide](git-github-guide.md) |
-| Understand how agents actually behave | [Things to Know Before You Trust the Agent](things-to-know.md) |
-| Set up your machine | [Install Dependencies](install-dependencies.md) |
-| Start a new project | [Setup Prompt](setup-prompt.md) |
-| Build the app | [Build Prompt](build-prompt.md) |
-| Fix something broken | [Debug Prompt](debug-prompt.md) |
-| Add a code reviewer (Claude) | [Claude Sub-Agent](claude-sub-agent.md) |
-| Add a code reviewer (Codex) | [Codex Sub-Agent](codex-sub-agent.md) |
+| Look up a terminal command | [Terminal Cheat Sheet](terminal-cheat-sheet.html) |
+| Look up a slash command | [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.html) |
+| Get set up with Git and GitHub | [Git and GitHub Guide](git-github-guide.html) |
+| Understand how agents actually behave | [Things to Know Before You Trust the Agent](things-to-know.html) |
+| Set up your machine | [Install Dependencies](install-dependencies.html) |
+| Start a new project | [Setup Prompt](setup-prompt.html) |
+| Build the app | [Build Prompt](build-prompt.html) |
+| Fix something broken | [Debug Prompt](debug-prompt.html) |
+| Add a code reviewer (Claude) | [Claude Sub-Agent](claude-sub-agent.html) |
+| Add a code reviewer (Codex) | [Codex Sub-Agent](codex-sub-agent.html) |

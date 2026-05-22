@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # An Idiot's Guide to Git and GitHub
 
@@ -211,4 +211,4 @@ so I have a safe backup on GitHub. Then we'll carry on.
 
 ---
 
-**Next step:** [Terminal Cheat Sheet](terminal-cheat-sheet.md) | [Slash Commands Cheat Sheet &rarr;](slash-commands-cheat-sheet.md)
+**Next step:** [Terminal Cheat Sheet](terminal-cheat-sheet.html) | [Slash Commands Cheat Sheet &rarr;](slash-commands-cheat-sheet.html)

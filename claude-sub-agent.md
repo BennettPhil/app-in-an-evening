@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # Claude Code Sub-Agent: Fractional CTO Reviewer
 

@@ -3,3 +3,15 @@ title: "Build Your First App With AI In One Evening"
 description: "Workshop companion site — build your first app with AI coding agents"
 plugins:
   - jekyll-remote-theme
+exclude:
+  - slides/node_modules/
+  - slides/.slidev/
+  - slides/components/
+  - slides/setup/
+  - slides/public/
+  - slides/package.json
+  - slides/package-lock.json
+  - slides/PRODUCT.md
+  - slides/README.md
+  - slides/slides.md
+  - slides/style.css

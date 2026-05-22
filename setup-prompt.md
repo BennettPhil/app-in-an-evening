@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # Setup Prompt
 
@@ -50,7 +50,7 @@ When everything is running, tell me: what I should see, where to find it, and wh
 
 ---
 
-`<<<START>>>`
+<<<START>>>
 
 # About Me
 
@@ -71,9 +71,9 @@ Tone: encouraging, jargon-free, treat all questions as normal questions.
 
 I want to feel in control of what we're building — prioritise my confidence and comprehension over speed or technical elegance.
 
-`<<<END>>>`
+<<<END>>>
 ```
 
 ---
 
-**Previous step:** [Install Dependencies](install-dependencies.md) | **Next step:** [Build Prompt &rarr;](build-prompt.md)
+**Previous step:** [Install Dependencies](install-dependencies.html) | **Next step:** [Build Prompt &rarr;](build-prompt.html)

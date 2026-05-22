@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # Slash Commands Cheat Sheet
 
@@ -115,4 +115,4 @@ If you forget any of this, type **`/help`** inside either agent. It will list ev
 
 ---
 
-**See also:** [Terminal Cheat Sheet](terminal-cheat-sheet.md) | [Git and GitHub Guide](git-github-guide.md)
+**See also:** [Terminal Cheat Sheet](terminal-cheat-sheet.html) | [Git and GitHub Guide](git-github-guide.html)

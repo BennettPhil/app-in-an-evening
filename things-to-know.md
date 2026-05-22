@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # Things to Know Before You Trust the Agent
 
@@ -72,4 +72,4 @@ Once something is in the context, the model can't un-see it. Telling it "ignore 
 
 ---
 
-**See also:** [Terminal Cheat Sheet](terminal-cheat-sheet.md) | [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.md) | [Git and GitHub Guide](git-github-guide.md)
+**See also:** [Terminal Cheat Sheet](terminal-cheat-sheet.html) | [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.html) | [Git and GitHub Guide](git-github-guide.html)

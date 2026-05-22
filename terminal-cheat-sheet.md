@@ -1,4 +1,4 @@
-[&larr; Back to Workshop Home](README.md)
+[&larr; Back to Workshop Home](index.html)
 
 # Terminal Cheat Sheet
 
@@ -49,7 +49,7 @@ A quick reference for the terminal commands you'll use during this workshop. The
 |---|---|
 | `brew install packagename` | Install software using Homebrew |
 | `brew update` | Update Homebrew itself |
-| `npm install packagename` | Install a Node.js package |
+| `npm install -g packagename` | Install a global Node.js command-line tool |
 
 ---
 
@@ -59,6 +59,7 @@ A quick reference for the terminal commands you'll use during this workshop. The
 |---|---|
 | `claude` | Start Claude Code |
 | `codex` | Start Codex |
+| `gemini` | Start Gemini |
 
 ---
 
@@ -105,6 +106,7 @@ A quick reference for the terminal commands you'll use during this workshop. The
 | Command | What it does |
 |---|---|
 | `wsl` | Enter the Linux environment from Command Prompt |
+| `wsl --install Ubuntu` | Install WSL with Ubuntu if it is not already installed |
 | `exit` | Leave the Linux environment and go back to Command Prompt |
 | `explorer.exe .` | Open the current folder in Windows File Explorer |
 
