@@ -366,9 +366,7 @@ layout: two-cols
 
 # Step 1: Open The Terminal
 
-<div style="height: 2rem"></div>
-
-<div class="grid grid-cols-2 gap-16">
+<div class="grid grid-cols-2 gap-16 pt-8">
 <div>
 
 ## macOS
@@ -424,9 +422,7 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 
 # Step 2: Install Dependencies
 
-<div style="height: 2rem"></div>
-
-<div class="grid grid-cols-2 gap-16">
+<div class="grid grid-cols-2 gap-16 pt-8">
 <div>
 
 ## 1. Install Homebrew
@@ -457,9 +453,7 @@ brew install nodejs
 
 # Step 3: Install an Agent
 
-<div style="height: 2rem"></div>
-
-Install one of these in your terminal. You only need to do this once.
+<p class="pt-8">Install one of these in your terminal. You only need to do this once.</p>
 
 <div class="border-2 border-red-700 bg-red-50 text-red-900 px-5 py-3 mt-4 mb-6 font-bold">
 Install only. Do not start the agent yet — we'll do that together in Step 5.
@@ -495,14 +489,10 @@ Install only. Do not start the agent yet — we'll do that together in Step 5.
 
 # Step 4: Make A Workshop Folder
 
-<div style="height: 2rem"></div>
-
-A clean place to keep everything we make today. Run these one at a time.
+<p class="pt-8">A clean place to keep everything we make today. Run these one at a time.</p>
 
 
-<div style="height: 2rem"></div>
-
-<div class="grid grid-cols-2 gap-16">
+<div class="grid grid-cols-2 gap-16 pt-8">
 <div>
 
 ### 1. Create the folder
@@ -544,7 +534,7 @@ cd workshop
 # Step 5: Start an Agent
 
 
-<div style="height: 2rem"></div>
+<div class="pt-8">
 
 1. Make sure you are in your workshop folder. Your terminal line should mention `workshop`, something like:
 
@@ -580,6 +570,8 @@ jane@laptop:~/workshop$
 </div>
 </div>
 
+</div>
+
 <Progress phase="setup" :active="5" />
 
 ---
@@ -598,9 +590,8 @@ layout: two-cols
 
 # Project Memory
 ### A note your agent reads every time you start a chat (=session)
-<div style="height: 1.5rem"></div>
 
-<div class="grid grid-cols-2 gap-12">
+<div class="grid grid-cols-2 gap-12 pt-6">
 <div>
 
 ## `CLAUDE.md`
