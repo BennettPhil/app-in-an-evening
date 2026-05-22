@@ -67,6 +67,8 @@ brew install nodejs
 
 Choose one agent and install it. You only need to do this once.
 
+**Important:** install the agent only. Do not start it yet. We will do that together in Step 5.
+
 ### Claude Code
 
 ```bash

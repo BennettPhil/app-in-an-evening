@@ -250,7 +250,7 @@ layout: two-cols
 
 ::right::
 
-<img src="/media/satya.png" class="h-100" />
+<img src="/media/satya.png" class="w-full h-auto object-contain" />
 
 ---
 layout: center
@@ -412,6 +412,26 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 
 ---
 
+# Terminal Basics
+
+### The few commands we'll use today
+
+| Command | What it does | When to use it |
+|---|---|---|
+| `pwd` | Shows where you are right now | When you feel lost |
+| `ls` | Lists the files and folders here | Before moving around |
+| `cd workshop` | Moves into the `workshop` folder | To step into your project |
+| `cd ..` | Moves back up one folder | To go back |
+| `mkdir workshop` | Creates a new folder | To make a place for the project |
+| `clear` | Clears the terminal screen | When things feel cluttered |
+| `Ctrl + C` | Stops the command currently running | When something seems stuck |
+
+You do not need to memorise these. The full cheat sheet is on the course website.
+
+<Progress phase="setup" :active="1" />
+
+---
+
 # Step 2: Install Dependencies
 
 <div class="grid grid-cols-2 gap-16">
@@ -446,6 +466,10 @@ brew install nodejs
 # Step 3: Install an Agent
 
 Install one of these in your terminal. You only need to do this once.
+
+<div class="border-2 border-red-700 bg-red-50 text-red-900 px-5 py-3 mt-4 mb-6 font-bold">
+Install only. Do not start the agent yet — we'll do that together in Step 5.
+</div>
 
 <div class="grid grid-cols-3 gap-12 mt-8">
 <div>
@@ -547,62 +571,6 @@ From inside your project folder, launch the agent and paste the prompt above.
 </div>
 
 <Progress phase="setup" :active="5" />
-
----
-layout: center
-class: text-center
----
-
-# Slash Commands
-
-You might be familiar with this from Slack, Telegram, etc.
-
-`/[some command]`
-
-*A full guide is on the course website.*
-
-<Progress phase="setup" :active="5" />
-
----
-
-# Step 6: Choose a Model and "Thinking Level"
-
-### More "Power" = More Cost
-
-<div class="grid grid-cols-2 gap-12">
-<div>
-
-## Claude
-
-`/model`
-
-- **Opus:** more powerful, use for more complicated tasks
-- **Sonnet:** cheaper, use for simpler everyday tasks
-
-<hr class="my-3"/>
-
-`/effort auto`
-
-You can turn this up later if you need to.
-
-</div>
-<div>
-
-## Codex
-
-`/model`
-
-- Strongest / default coding model: use for harder tasks
-- Mini / smaller model: cheaper, use for simpler everyday tasks
-
-<hr class="my-3"/>
-
-Set reasoning to "medium" for now; turn it up later only if the task is genuinely hard.
-
-</div>
-</div>
-
-<Progress phase="setup" :active="6" />
 
 ---
 layout: two-cols
@@ -1120,6 +1088,8 @@ layout: two-cols
 
 # Advanced Topics
 
+## — Model Choice
+
 ## — Sub-agents
 
 ## — Skills
@@ -1127,6 +1097,49 @@ layout: two-cols
 ::right::
 
 <img src="/media/advanced.png" class="h-100" />
+
+
+---
+
+# Step 6: Choose a Model and "Thinking Level"
+
+### More "Power" = More Cost
+
+<div class="grid grid-cols-2 gap-12">
+<div>
+
+## Claude
+
+`/model`
+
+- **Opus:** more powerful, use for more complicated tasks
+- **Sonnet:** cheaper, use for simpler everyday tasks
+
+<hr class="my-3"/>
+
+`/effort auto`
+
+You can turn this up later if you need to.
+
+</div>
+<div>
+
+## Codex
+
+`/model`
+
+- Strongest / default coding model: use for harder tasks
+- Mini / smaller model: cheaper, use for simpler everyday tasks
+
+<hr class="my-3"/>
+
+Set reasoning to "medium" for now; turn it up later only if the task is genuinely hard.
+
+</div>
+</div>
+
+<Progress phase="setup" :active="6" />
+
 
 ---
 layout: two-cols
@@ -1239,7 +1252,7 @@ layout: two-cols
 
 <div class="border-2 border-black rounded-lg p-6">
 
-### Thursday, 21 May
+### Thursday, 4 June
 
 18:00 – 20:00
 
