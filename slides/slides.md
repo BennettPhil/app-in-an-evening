@@ -46,6 +46,85 @@ wsl --install Ubuntu
 - If you see `green text` in the slides, it is code you can copy.
 
 ---
+
+# What You'll Walk Away With
+
+<div class="promise">
+
+<div class="prow">
+  <div class="pnum">1</div>
+  <div class="ptext">
+    <div class="pclaim">Build a <b>real desktop app</b> — a productivity tool you take home with you</div>
+    <div class="pquote">It's yours, running on your laptop. No subscription.</div>
+  </div>
+</div>
+
+<div class="prow">
+  <div class="pnum">2</div>
+  <div class="ptext">
+    <div class="pclaim">Understand <b>how building with AI works</b> — what coding agents do and how to direct them</div>
+    <div class="pquote">No need to pay for Lovable or other platforms — go to the source.</div>
+  </div>
+</div>
+
+<div class="prow">
+  <div class="pnum">3</div>
+  <div class="ptext">
+    <div class="pclaim">Be able to <b>build for yourself</b> — independently, after you leave</div>
+    <div class="pquote">Ask AI, not Phil or Igor.</div>
+  </div>
+</div>
+
+</div>
+
+<style scoped>
+.slidev-layout h1 { margin-bottom: 2.4rem; }
+.promise {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  max-width: 60rem;
+}
+.prow {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.pnum {
+  flex: none;
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--term-bg);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size: 1.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ptext { padding-top: 0.15rem; }
+.pclaim {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 1.72rem;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.pclaim b { font-weight: 700; }
+.pquote {
+  margin-top: 0.55rem;
+  padding-left: 0.95rem;
+  border-left: 3px solid var(--accent);
+  font-size: 1.18rem;
+  line-height: 1.4;
+  font-style: italic;
+  color: var(--accent-ink);
+}
+</style>
+
+---
 layout: two-cols
 ---
 
