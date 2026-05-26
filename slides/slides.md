@@ -404,6 +404,15 @@ class: text-center
 
 ---
 
+# Why Use The Terminal?
+
+- **Works on your real files**, not a sandboxed copy.
+- **Does the task end-to-end**, not just describes it.
+- **Every step is visible and reversible.**
+- **Avoids vendor lock-in** because the work stays in files, commands, and tools you control.
+
+---
+
 # Agenda
 
 | Duration | |
