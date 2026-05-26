@@ -44,6 +44,9 @@ wsl --install Ubuntu
 - You'll receive the slides and course material, so you do not need to take notes.
 - Things will break; raise your hand and someone will come help.
 - If you see `green text` in the slides, it is code you can copy.
+- Please wait for the group
+- Toilets
+- Invoice
 
 ---
 layout: two-cols
