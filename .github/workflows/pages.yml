@@ -37,13 +37,9 @@ jobs:
         working-directory: slides
         run: npx playwright install --with-deps chromium
 
-      - name: Build Slidev site
+      - name: Build Slidev site and PDF
         working-directory: slides
-        run: npm run build
-
-      - name: Export Slidev PDF
-        working-directory: slides
-        run: npm run export
+        run: npm run build:artifacts
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

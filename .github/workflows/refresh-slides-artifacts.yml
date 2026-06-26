@@ -1,0 +1,61 @@
+name: Refresh slides artifacts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "slides/**"
+      - ".github/workflows/refresh-slides-artifacts.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-slides-artifacts-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: slides/package-lock.json
+
+      - name: Install dependencies
+        working-directory: slides
+        run: npm ci
+
+      - name: Install browser for PDF export
+        working-directory: slides
+        run: npx playwright install --with-deps chromium
+
+      - name: Build HTML and PDF slides
+        working-directory: slides
+        run: npm run build:artifacts
+
+      - name: Commit generated slides artifacts
+        run: |
+          git add -A -f slides/dist slides/slides.pdf
+
+          if git diff --cached --quiet -- slides/dist slides/slides.pdf; then
+            echo "Slides artifacts are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: rebuild slides artifacts"
+          git push

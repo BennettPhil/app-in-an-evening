@@ -14,11 +14,9 @@ transition: slide-left
 mdc: false
 ---
 
-# Build Your First App With AI In One Evening
+# Build your first App with AI before lunch
 
 Impact Hub Berlin
-
-<img src="/media/monster-distribution.png" class="absolute right-10 bottom-10 h-60" />
 
 ---
 layout: center
@@ -154,13 +152,13 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Everyday AI Club
+# Everyday AI Club: product designers
 
-## Tuesday, 2 June 2026
+## Tuesday, 7 July 2026
 
 ### A casual meetup for AI-curious non-technical people. Bring your curiosity, leave with ideas you can use.
 
-[luma.com/everyday-ai-club-1](https://luma.com/everyday-ai-club-1)
+[luma.com/everyday-ai-club-designers](https://luma.com/everyday-ai-club-designers)
 
 ::right::
 
@@ -428,6 +426,25 @@ class: text-center
 layout: two-cols
 ---
 
+# Join the Slack Group
+
+### If you haven't received an invite
+
+### Join here 👉
+
+::right::
+
+<div class="flex flex-col items-center">
+<img src="/media/everyday-ai-club-slack-qr.png" class="h-80 bg-white p-5 border-3 border-black" />
+
+[https://is.gd/pGiP5o](https://is.gd/pGiP5o)
+
+</div>
+
+---
+layout: two-cols
+---
+
 # Hands-on
 
 ### Open a Terminal
@@ -442,6 +459,15 @@ layout: two-cols
 [https://bit.ly/app-in-day](https://bit.ly/app-in-day)
 
 </div>
+
+---
+layout: center
+class: text-center
+---
+
+# Eisenhower Matrix
+
+<img src="/media/eisenhower-matrix.png" class="max-h-105 object-contain mx-auto mt-6" />
 
 ---
 layout: two-cols
@@ -1342,13 +1368,12 @@ layout: two-cols
 
 <div class="border-2 border-black rounded-lg p-6">
 
-### Thursday, 4 June
+### Thursday, 9 July
 
 18:00 – 20:00
 
 </div>
 
-*Don't worry if you can't make it — we'll be running other sessions.*
 
 </div>
 </div>
@@ -1389,11 +1414,10 @@ Online
 
 | Duration | |
 |---|---|
-| 45 min | Advanced Topics & Distribution |
+| 30 min | Advanced Topics & Distribution |
 | 30 min | Show and Tell |
-| 40 min | Questions |
+| 55 min | Questions |
 | 5 min | Wrap Up |
-| 60 min | Free Time |
 
 ---
 class: dense

@@ -21,7 +21,13 @@ All slides live in `slides.md` — one file, separated by `---`. Images are in
 ```bash
 npm run build    # static site -> dist/
 npm run export   # PDF -> slides.pdf
+npm run build:artifacts
 ```
 
 The published workshop site serves the built deck from
 `/app-in-an-evening/slides/dist/`, so the build command includes that base path.
+
+On pushes to `main`, GitHub Actions runs `npm run build:artifacts`, force-adds
+the ignored generated outputs (`dist/` and `slides.pdf`), and commits them back
+to the branch when they change. The Pages workflow uses the same command before
+deploying.

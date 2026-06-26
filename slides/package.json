@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build --base /app-in-an-evening/slides/dist/",
-    "export": "slidev export --output slides.pdf"
+    "export": "slidev export --output slides.pdf",
+    "build:artifacts": "npm run build && npm run export"
   },
   "devDependencies": {
     "@slidev/cli": "^0.50.0",
