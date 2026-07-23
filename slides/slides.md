@@ -1375,7 +1375,7 @@ layout: center
 class: text-center
 ---
 
-## Good Luck — Social Time!
+## Good Luck
 
 ---
 layout: two-cols
