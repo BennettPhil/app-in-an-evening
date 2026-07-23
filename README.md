@@ -10,8 +10,8 @@ This workshop is for people who aren't software engineers. You don't need any co
 
 Follow these pages in order during the workshop:
 
-### 1. [Open the Terminal, Install Dependencies, and Start an Agent](install-dependencies.html)
-Get your machine ready. This covers WSL for Windows, Homebrew, Node.js, installing an AI coding agent, creating your workshop folder, and starting the agent.
+### 1. [Open the Terminal, Install Homebrew and Node.js, and Start an Agent](install-dependencies.html)
+Get your machine ready. This covers WSL for Windows, Homebrew, Node.js and npm for the app project, installing an AI coding agent, creating your workshop folder, and starting the agent.
 
 ### 2. Setup Prompt
 Copy one setup prompt to scaffold the desktop app and create the project instructions file.
@@ -76,7 +76,7 @@ Twelve honest things worth knowing about how coding agents actually behave — w
 | Look up a slash command | [Slash Commands Cheat Sheet](slash-commands-cheat-sheet.html) |
 | Get set up with Git and GitHub | [Git and GitHub Guide](git-github-guide.html) |
 | Understand how agents actually behave | [Things to Know Before You Trust the Agent](things-to-know.html) |
-| Set up your machine | [Install Dependencies](install-dependencies.html) |
+| Set up your machine | [Install Homebrew, Node.js, and an Agent](install-dependencies.html) |
 | Start a new project | [Setup Prompt](setup-prompt.html) |
 | Build the app | [Build Prompt](build-prompt.html) |
 | Fix something broken | [Debug Prompt](debug-prompt.html) |

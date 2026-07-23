@@ -47,9 +47,10 @@ A quick reference for the terminal commands you'll use during this workshop. The
 
 | Command | What it does |
 |---|---|
-| `brew install packagename` | Install software using Homebrew |
+| `brew install node` | Install Node.js and npm for the app project |
+| `brew install package-name` | Install a Homebrew formula |
+| `brew install --cask app-name` | Install a Homebrew cask |
 | `brew update` | Update Homebrew itself |
-| `npm install -g packagename` | Install a global Node.js command-line tool |
 
 ---
 

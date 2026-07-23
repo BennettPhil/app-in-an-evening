@@ -1,6 +1,6 @@
 [&larr; Back to Workshop Home](index.html)
 
-# Open the Terminal, Install Dependencies, and Start an Agent
+# Open the Terminal, Install Homebrew and Node.js, and Start an Agent
 
 This page matches the hands-on setup in the slides. Work through it in order and run the commands one at a time.
 
@@ -41,11 +41,11 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 
 ---
 
-## Step 2: Install Dependencies
+## Step 2: Prepare the Project Tools
 
 ### 1. Install Homebrew
 
-Homebrew is a package manager. It helps install the software we need with simple terminal commands.
+Homebrew is a package manager. It helps us install the software we need with simple terminal commands.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -53,12 +53,19 @@ Homebrew is a package manager. It helps install the software we need with simple
 
 When the install finishes, Homebrew may ask you to copy, paste, and run a few extra commands. Run each one separately in the terminal.
 
-### 2. Install Node.js
+### 2. Install Node.js and npm
 
-Node.js is the runtime used by the coding agents we are installing.
+Node.js and npm are tools the app project will need. They are not required to install the coding agent, but installing them now means the agent can scaffold and run the project later.
 
 ```bash
-brew install nodejs
+brew install node
+```
+
+Homebrew installs Node.js and npm together. Check that both are ready:
+
+```bash
+node --version
+npm --version
 ```
 
 ---
@@ -72,19 +79,19 @@ Choose one agent and install it. You only need to do this once.
 ### Claude Code
 
 ```bash
-npm install -g @anthropic-ai/claude-code
+brew install --cask claude-code
 ```
 
 ### Codex
 
 ```bash
-npm install -g @openai/codex
+brew install --cask codex
 ```
 
 ### Gemini
 
 ```bash
-npm install -g @google/gemini-cli
+brew install gemini-cli
 ```
 
 ---

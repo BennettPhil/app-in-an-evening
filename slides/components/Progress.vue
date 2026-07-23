@@ -5,7 +5,7 @@ const phases = {
   setup: {
     label: 'Setting Up The Agent',
     base: 0,
-    steps: ['Open Terminal', 'Install Deps', 'Install Agent', 'Make Folder', 'Start Agent', 'Choose Model'],
+    steps: ['Open Terminal', 'Prep Project Tools', 'Install Agent', 'Make Folder', 'Start Agent', 'Choose Model'],
   },
   build: {
     label: 'Building The App',

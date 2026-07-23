@@ -76,4 +76,4 @@ I want to feel in control of what we're building — prioritise my confidence an
 
 ---
 
-**Previous step:** [Install Dependencies](install-dependencies.html) | **Next step:** [Build Prompt &rarr;](build-prompt.html)
+**Previous step:** [Install Homebrew, Node.js, and an Agent](install-dependencies.html) | **Next step:** [Build Prompt &rarr;](build-prompt.html)

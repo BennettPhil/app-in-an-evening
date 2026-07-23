@@ -18,6 +18,10 @@ mdc: false
 
 Impact Hub Berlin
 
+Wifi: Impact Hub Berlin Visitor
+
+Password: Impact-Hub2022
+
 ---
 layout: center
 class: text-center
@@ -537,7 +541,7 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 
 ---
 
-# Step 2: Install Dependencies
+# Step 2: Prepare the Project Tools
 
 <div class="grid grid-cols-2 gap-16 pt-8">
 <div>
@@ -556,10 +560,10 @@ sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 
 ## 2. Install Node.js
 
 ```bash
-brew install nodejs
+brew install node
 ```
 
-*Node.js is the runtime our agents need. Homebrew makes installing it a one-liner.*
+*Node.js includes npm. Our app project needs them; the coding agent itself does not.*
 
 </div>
 </div>
@@ -576,28 +580,15 @@ brew install nodejs
 Install only. Do not start the agent yet — we'll do that together in Step 5.
 </div>
 
-<div class="grid grid-cols-3 gap-12 mt-8">
-<div>
+<div style="display: grid; grid-template-columns: 1fr 2fr; column-gap: 3rem; row-gap: 1.25rem; margin-top: 2rem; align-items: center;">
+<div class="text-2xl font-bold">Claude Code</div>
+<div><code style="font-size: 18px;">brew install --cask claude-code</code></div>
 
-## Claude Code
+<div class="text-2xl font-bold">Codex</div>
+<div><code style="font-size: 18px;">brew install --cask codex</code></div>
 
-`npm install -g @anthropic-ai/claude-code`
-
-</div>
-<div>
-
-## Codex
-
-`npm install -g @openai/codex`
-
-</div>
-<div>
-
-## Gemini
-
-`npm install -g @google/gemini-cli`
-
-</div>
+<div class="text-2xl font-bold">Gemini</div>
+<div><code style="font-size: 18px;">brew install gemini-cli</code></div>
 </div>
 
 <Progress phase="setup" :active="3" />
@@ -1483,10 +1474,9 @@ layout: two-cols
 <div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">06</span>It can't do math reliably</div>
 <div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">07</span>It is extremely suggestible</div>
 <div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">08</span>Same prompt, different answer</div>
-<div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">09</span>No memory between conversations</div>
-<div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">10</span>The model behind the name keeps changing</div>
-<div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">11</span>It won't write like you</div>
-<div class="border-t-2 border-black pt-4 col-span-2"><span class="text-red-700 text-4xl mr-4">12</span>The "pink elephant" effect — don't tell it what <em>not</em> to do</div>
+<div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">09</span>The model behind the name keeps changing</div>
+<div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">10</span>It won't write like you</div>
+<div class="border-t-2 border-black pt-4"><span class="text-red-700 text-4xl mr-4">11</span>The "pink elephant" effect — don't tell it what <em>not</em> to do</div>
 
 </div>
 
