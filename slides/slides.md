@@ -309,8 +309,6 @@ class: text-center
 layout: image
 image: /media/frame1.png
 ---
-
----
 layout: two-cols
 ---
 
@@ -1341,32 +1339,30 @@ layout: two-cols
 
 ---
 
-# Follow Up Session
+---
+layout: two-cols
+---
 
-<div class="grid grid-cols-2 gap-16 mt-8">
-<div>
+#### YOUR SUPPORT CONTINUES AFTER TONIGHT
 
-#### WHAT WE'LL COVER
+# Keep Building in Slack
 
-- "Open Office": review issues and provide hands-on support
-- Show & Tell: show us what you made
-- What next: distribution, what agents aren't good at
+## Your private workshop channel
 
-</div>
-<div>
+- Ask follow-up questions when you get stuck
+- Share your builds and get feedback
+- Keep learning with this workshop group
 
-#### WHEN
+::right::
 
-<div class="border-2 border-black rounded-lg p-6">
+## The wider Everyday AI community
 
-### Thursday, 9 July
+- **Show-and-tell** — share projects and ask for feedback
+- **Ask-anything** — bring questions beyond the workshop
+- **Meetups & announcements** — stay connected to what's next
 
-18:00 – 20:00
-
-</div>
-
-
-</div>
+<div class="mt-8 border-t-2 border-black pt-4 text-xl font-bold">
+You're already invited — look for your private workshop channel in Slack.
 </div>
 
 ---
