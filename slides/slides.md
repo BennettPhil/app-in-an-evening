@@ -1338,8 +1338,6 @@ layout: two-cols
 <img src="/media/homework.png" class="h-100" />
 
 ---
-
----
 layout: two-cols
 ---
 
