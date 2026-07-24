@@ -1357,7 +1357,7 @@ layout: two-cols
 
 <div class="border-2 border-black rounded-lg p-6">
 
-### Thursday, 9 July
+### Thursday, 6 August
 
 18:00 – 20:00
 
