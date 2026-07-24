@@ -1338,6 +1338,35 @@ layout: two-cols
 <img src="/media/homework.png" class="h-100" />
 
 ---
+
+# Follow Up Session
+
+<div class="grid grid-cols-2 gap-16 mt-8">
+<div>
+
+#### WHAT WE'LL COVER
+
+- "Open Office": review issues and provide hands-on support
+- Show & Tell: show us what you made
+- What next: distribution, what agents aren't good at
+
+</div>
+<div>
+
+#### WHEN
+
+<div class="border-2 border-black rounded-lg p-6">
+
+### Thursday, 9 July
+
+18:00 – 20:00
+
+</div>
+
+</div>
+</div>
+
+---
 layout: two-cols
 ---
 
