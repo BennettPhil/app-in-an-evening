@@ -14,24 +14,36 @@ transition: slide-left
 mdc: false
 ---
 
-# Build your first App with AI before lunch
+# Build your first App with AI in one evening
 
 Impact Hub Berlin
 
-Wifi: Impact Hub Berlin Visitor
+Wifi: Delta Campus
 
-Password: Impact-Hub2022
+Password: Campu$2024!?
 
 ---
 layout: center
 class: text-center
 ---
 
+<div class="wifi-badge" aria-label="Workshop Wi-Fi credentials">
+  <span class="wifi-badge__label">Workshop Wi-Fi</span>
+  <span><strong>Delta Campus</strong></span>
+  <span>Password: <code>Campu$2024!?</code></span>
+</div>
+
 # ⚠️ Windows Users ⚠️
 
 ### If WSL is not already installed, start it now.
 
 Open PowerShell or Command Prompt and run:
+
+```text
+wsl --install
+```
+
+Then after reboot
 
 ```text
 wsl --install Ubuntu
@@ -154,6 +166,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+hide: true
 ---
 
 # Everyday AI Club: product designers
@@ -185,7 +198,6 @@ layout: two-cols
 - Brit "stuck" in Berlin
 - 25+ years in software engineering & leadership
 - Author of "Punk Leadership"
-- Founder of Brainfork, an AI knowledge management platform
 - Fixer of unfixable engineering teams
 
 ::right::
@@ -508,10 +520,6 @@ First-time setup asks for a username & password.
 
 🚨 **When you type a password, nothing shows up.** No dots, no stars. That's normal. Just type it and press Return.
 
-Then
-```bash
-sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgtk-3-0 libgbm-dev libnss3-dev libxss-dev
-```
 </div>
 </div>
 

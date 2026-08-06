@@ -286,6 +286,42 @@
 .slidev-layout.text-center h2 { font-size: 2.4rem; }
 .slidev-layout.text-center h3 { font-size: 1.5rem; margin-top: 0.8rem; }
 
+/* ---------- Persistent workshop credentials ---------- */
+.wifi-badge {
+  position: absolute;
+  top: 0.45rem;
+  right: 1rem;
+  z-index: 10;
+  display: grid;
+  gap: 0.05rem;
+  min-width: 10.5rem;
+  padding: 0.42rem 0.68rem;
+  border: 1px solid var(--hairline-2);
+  border-radius: 8px;
+  background: var(--canvas-2);
+  box-shadow: 0 1px 0 var(--hairline);
+  color: var(--ink-soft);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.64rem;
+  line-height: 1.35;
+  text-align: left;
+}
+.wifi-badge strong {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.15;
+}
+.wifi-badge__label {
+  color: var(--accent-ink);
+  font-size: 0.6rem;
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.wifi-badge code {
+  font-size: 0.95em !important;
+}
+
 /* ---------- Layout helpers ---------- */
 .slidev-layout .grid { gap: 2.2rem; }
 .slidev-layout [class*="col-cards"] { gap: 2.2rem; }
